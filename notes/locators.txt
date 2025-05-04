@@ -1,0 +1,81 @@
+Locators:
+What is a locator?
+locator is used to identify any webelement on the webpage
+
+in playwright there are different locator strategies available
+
+playwright made life easy to identify any weblement and to interact
+
+
+getByRole:
+how does getByRoleWorks
+it works based on acceble name
+
+what it is ?
+
+each webellememt that is available on the webpage have a html struture
+in this we have 2 types of HTML tags
+
+1.Paired html
+2.Unpaired html
+
+
+paired html tags?
+tags which are having open and close 
+<h3>......</h3>
+
+.....--->> innrer text,inner html,text , accessble name
+
+
+<input 
+type="text" 
+data-val="true" 
+data-val-required="First name is required." 
+id="FirstName" 
+name="FirstName">
+
+
+here on unpaired html tags, playwright will serach withere is accesible role available on the element application
+
+then search for name attribute, if available use it else switch to another locator strtegy
+
+getByRole("api",{name:acceblename or name property})
+
+
+
+xyz-- testId='opi'
+
+Grouping:--()
+when there are more than one element available with the given xpath
+if you want to select any specific elementout of it
+then we use Grouping
+
+starts-with()
+if any attribute of any element, keeping changing except the starting playwright
+in such cases we use start-with
+
+using starts with, we can expect, mofre than one element to get identified
+
+For Ex:
+id="ABC1234"
+id="ABC789"
+id="ABC654"
+id="ABC*&*"
+
+here ABC is alone constant and rest is getting change
+
+starts-with(@attribute,'value')
+
+starts-with(text(),'starting text')
+
+
+contains():
+if any attribute of any element, keeping changing but some part of the attribute is constant
+in such cases we use contains()
+
+using contains, we can expect, mofre than one element to get identified
+
+
+conatins(@attribute,'value')
+
+conatins(text(),'some part of the text')

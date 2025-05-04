@@ -1,0 +1,19 @@
+In any project for any application there will be different environments available
+
+such as like
+QA
+UAT
+Staging
+Prod
+
+QA: this is the environment where we do testing (testing team,r,w)
+UAT: business users use this environment for their testing(testing team,r,w)
+Staging: it is the replica of production(testing team,r,w)
+Prod: actual users use this evironment(testing team,r)
+
+for each one of this environment wil have a unique url to launch the application
+how are we going to making the launch Application method to open application in the respective environment
+
+there are two ways to do this
+1.creating custom json config
+2.using playwright environment config

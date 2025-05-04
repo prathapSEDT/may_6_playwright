@@ -1,0 +1,79 @@
+XPath:
+
+what is xpath?
+
+xpath is used to locate element phsically on the HTML DOM page
+
+it is a route, to search an elemet on the HTML DOM
+
+basically there are two types of xpath available
+
+1.abs (not recommended)
+2.relative
+
+know the basic html structure
+
+<html>
+    <title>...</title>
+<body>
+    <label>username</label>
+    <input type="text" >
+</body>
+</html>
+
+relative xpath:
+there are different type of relative xpath
+1.simple xpath
+2.frwd xpath
+3.backwrd xpath
+4.js notated xpath
+5.logical xpath
+
+simple xpath:
+//htmltag[@attribute='value']
+
+
+<input type="email" 
+name="EmailHomePage" 
+class="email text tryit-email" 
+id="Form_submitForm_EmailHomePage" 
+tabindex="1" 
+placeholder="Enter your email address here">
+
+
+
+JS Notated xpath:
+
+text():
+this is used to identify the paired html tags using its inner text
+
+//htmltag[text()='innertext']
+//htmltag[normalize-space(text())='innertext']
+
+
+Relation xpath:
+identify the static or more unique element(land mark)
+
+check what is the relation between static element and the element that you are looking attribute
+
+Relations:
+
+fwdxpath:
+drilling down
+child
+parentxpath/child::htmltag or *
+
+
+following-siblings: 
+following-sibling::htmltag or * 
+
+
+
+descendants
+
+backwardxpath:
+parent
+ancestor
+preceeding-sibling
+
+

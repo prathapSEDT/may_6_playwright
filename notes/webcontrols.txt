@@ -1,0 +1,79 @@
+in amy web application we have different types of web controls
+
+1.link
+2.button
+3.textbox
+4.text
+5.radio
+6.checkbox
+7.list
+8.image
+
+we generally interact with these elements on the webpage
+
+link:
+used to navigate from one page to another page
+validations can be performed?
+1.click on the link
+2.get the text from the link
+3.check if the link is available or not
+4.after clciking on a link we might need to validate if the navigation is correct
+5.check if the link is not broken or not
+
+button:
+used to navigate from one page to another page (next,continue)
+used to submit data to the server
+
+validations can be performed?
+1.click on the button
+2.get the text from the button
+3.check if the button is available or not
+4.after clciking on a button we might need to validate if the navigation is correct
+5.check if the data is submited or not
+
+
+textbox:
+used to inputdata in a form
+
+validations can be performed?
+1.fill data into a textbox
+2.get the value from a textbox
+3.check if the textbox is available or not
+4.when you taboff, check if data is persist or not
+5.mandatory field validation
+
+
+radio:
+used to inputdata in a form
+select only one option one at a time
+
+validations can be performed?
+1.selecting any one option
+2.check by default any option is selected
+3.check if the radiobutton is available or not
+4.when you taboff, check if selection is persist or not
+5.mandatory field validation
+
+
+checkbox:
+used to check multiple options in a form
+
+validations can be performed?
+1.selecting more than one option
+2.check by default any option is selected
+3.check if the checkbox is available or not
+4.when you taboff, check if selection is persist or not
+5.mandatory field validation
+
+
+list:
+used to select one option from multiple options
+
+validations can be performed?
+1.selecting  one option
+2.check by default any option is selected
+3.check if the list is available or not
+4.when you taboff, check if selection is persist or not
+5.mandatory field validation
+6.validation of dropdown options
+

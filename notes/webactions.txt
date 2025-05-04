@@ -1,0 +1,4 @@
+textbox:
+to type any data into a text box we use method fill(data)
+.clear()
+

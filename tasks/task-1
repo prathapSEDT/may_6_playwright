@@ -1,0 +1,28 @@
+Create 3 folders
+utilities
+    -ui
+capabilities
+    -ui
+testdata
+    -ui
+
+under utilities->ui-> create a TS file called as WebLib
+create page variable of type Page at the class level
+create a constructor  which can accept a page , inside the constructor intialise the page object that is available under the class
+create a method called as launchApplication, inside this method use the pageobject and launch the browser
+surround the code with try and catch, if there is no error return true else false
+on top of your method put the method headers
+==========================================================
+
+
+under capabilities-->ui
+create a TS file login
+create page variable of type Page at the class level
+create a constructor  which can accept a page , inside the constructor intialise the page object that is available under the class
+create a method called as login
+
+=========================================================
+
+on test cases file(Spec file) try to access these two method and verify if you are abale to open the 
+browser
+loginto the system
